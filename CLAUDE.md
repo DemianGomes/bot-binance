@@ -83,6 +83,7 @@ Uma mudança sem registro aqui é considerada incompleta.
 | `operacoes-<modo>.csv` | Uma linha por compra/venda: `data,tipo,preco,quantidade,valor_brl,patrimonio_brl,taxa_brl,taxa_qtd` (desde 19/10; históricos antigos têm só 6 colunas no cabeçalho). `valor_brl` da venda = recebido **já sem a taxa**. `taxa_brl` = taxa em reais (moeda/BNB convertidos); `taxa_qtd` = taxa descontada da moeda comprada. |
 | `LEIA-ME.md` | Manual do usuário. |
 | `README.md` | Página de entrada para quem recebe o bot (GitHub): o que é, riscos, simulação, modo real. |
+| `AGENTS.md` | Instruções para outros agentes de IA (o Codex lê `AGENTS.md` sozinho): regras de segurança, como rodar/testar, armadilhas; aponta para este `CLAUDE.md`. Mantenha as regras de segurança iguais às daqui. |
 | `exportar.ps1` | Recria `compartilhar\` + `bot-binance-compartilhar.zip` só com código e docs (lista fixa de arquivos): `config.json` em simulação e sem `carteira_propria`, `CLAUDE.md` sem o histórico de decisões e com números de ordens trocados por `<id da ordem>`, `.gitignore` para os arquivos que o bot cria. **Nunca** compartilhe a pasta principal (tem estado, logs, operações e saldos do usuário). |
 
 ## Arquitetura e fluxo

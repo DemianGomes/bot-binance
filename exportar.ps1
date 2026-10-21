@@ -13,7 +13,7 @@ New-Item -ItemType Directory -Force (Join-Path $Out 'real'), (Join-Path $Out 'si
 
 $files = 'bot.ps1', 'strategy.cs', 'carteira.ps1', 'simulacao.ps1', 'bandeja.ps1', 'iniciar.bat',
          'backtest.ps1', 'backtest.cs', 'backtest-todos.ps1', 'backtest.bat', 'previsao.ps1', 'criar-atalho.ps1',
-         'exportar.ps1', 'robo.ico', 'robo-simulacao.ico', 'README.md', 'LEIA-ME.md'
+         'exportar.ps1', 'robo.ico', 'robo-simulacao.ico', 'README.md', 'LEIA-ME.md', 'AGENTS.md'
 foreach ($f in $files) { Copy-Item (Join-Path $Src $f) (Join-Path $Out $f) }
 Copy-Item (Join-Path $Src 'real\moedas.json') (Join-Path $Out 'real\moedas.json')
 Copy-Item (Join-Path $Src 'simulacao\moedas.json') (Join-Path $Out 'simulacao\moedas.json')

@@ -42,7 +42,8 @@ espera voltar.
    confirme a divisão dos reais entre as moedas.
 
 O manual completo está em **[LEIA-ME.md](LEIA-ME.md)**. Detalhes técnicos (para quem for mexer no código,
-inclusive com ajuda de IA) em **[CLAUDE.md](CLAUDE.md)**.
+inclusive com ajuda de IA) em **[CLAUDE.md](CLAUDE.md)**; regras para agentes de IA (Codex etc.) em
+**[AGENTS.md](AGENTS.md)**.
 
 ## Arquivos principais
 
