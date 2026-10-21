@@ -1,0 +1,9 @@
+{
+    "moedas":  [
+                   { "par": "BTCBRL",  "reservado_brl": 20, "pasta": "." },
+                   { "par": "SOLBRL",  "peso": 11.5 },
+                   { "par": "NEARBRL", "peso": 16 },
+                   { "par": "PEPEBRL", "peso": 11 },
+                   { "par": "SUIBRL",  "peso": 11.5 }
+               ]
+}

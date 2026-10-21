@@ -1,0 +1,16 @@
+{
+    "modo":  "simulacao",
+    "par":  "BTCBRL",
+    "deposito_inicial_brl":  20,
+    "meta_brl":  0,
+    "intervalo_segundos":  2,
+    "janela_minutos":  240,
+    "aquecimento_minutos":  5,
+    "queda_para_comprar_pct":  2.5,
+    "lucro_para_vender_pct":  2.5,
+    "stop_loss_pct":  0,
+    "pausa_apos_stop_minutos":  10,
+    "tendencia_minutos":  0,
+    "trailing_pct":  0,
+    "taxa_simulacao_pct":  0.1
+}

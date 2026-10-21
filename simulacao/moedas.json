@@ -1,0 +1,9 @@
+{
+    "moedas":  [
+                   { "par": "BTCBRL",  "valor_brl": 20 },
+                   { "par": "SOLBRL",  "valor_brl": 11.5 },
+                   { "par": "NEARBRL", "valor_brl": 16 },
+                   { "par": "PEPEBRL", "valor_brl": 11 },
+                   { "par": "SUIBRL",  "valor_brl": 11.5 }
+               ]
+}
